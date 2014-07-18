@@ -10,7 +10,7 @@ import com.octopanda.trident.custom.model.User;
 import com.octopanda.trident.custom.service.PassportService;
 
 @RunWith(SpringJUnit4ClassRunner.class) 
-@ContextConfiguration(locations={"file:src/main/resources/spring/trident-custom-context.xml"}) 
+@ContextConfiguration(locations={"classpath:spring/trident-custom-context.xml"}) 
 public class PassportTest {
 	@Autowired
 	private PassportService passportService;

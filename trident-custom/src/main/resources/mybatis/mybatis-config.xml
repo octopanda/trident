@@ -6,7 +6,7 @@
 		<typeAlias type="com.octopanda.trident.custom.model.Organization" alias="Organization" />
 	</typeAliases>
 	<mappers>
-		<mapper resource="com/octopanda/trident/custom/dao/mapper/UserMapper.xml" />
-		<mapper resource="com/octopanda/trident/custom/dao/mapper/OrganizationMapper.xml" />
+		<mapper resource="mapper/UserMapper.xml" />
+		<mapper resource="mapper/OrganizationMapper.xml" />
 	</mappers>
 </configuration>
