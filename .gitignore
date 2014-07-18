@@ -4,6 +4,10 @@
 .mtj.tmp/
 
 # Package Files #
+*/.gitignore
+*.settings/
+*.project
+*.classpath
 *.jar
 *.war
 *.ear
